@@ -1,20 +1,42 @@
 body {
     background-color: #ffffff;
     border-color:#dddddd;
+    
+    
+}
+h2 {
+    color:#4aaaa5;
+    font-weight: solid;
+    font-size: 40px;
+
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+.header {
+    background-color: #ffffff;
+    border-bottom: 5px solid #cccccc;
+    width:100%
+}
+.about{
+    border: 1px solid blue;
+    position: relative;
+
+
+
+}
 .badge {
     Background-color: #4aaaa5;
-    border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid red;
-    height: 75px;
-    width: 300px;
+    border: 2px solid #cccccc;
+    height: 71px;
+    width: 196px;
     Text-align: center;
+    
+    
+    
 }
 
 img {
@@ -22,19 +44,43 @@ img {
     width: 200px;
 }
 
-.content {
-    min-width: 300px;
-    max-width: 960px;
-    min-height: 300px;
-    max-height: 1000px;
+.box {
+    background-color:#ffffff;
+    Border: 3px solid #cccccc;
+    Padding: 20px 15px;
+    Margin: 30px 400px;
+    Height: 395px;
+    width: 757px;
+    
+    
 }
+.box2 {
+    background-color:#ffffff;
+    Border: 3px solid #cccccc;
+    Padding: 20px 15px;
+    Margin: 30px 400px;
+    Height: 375px;
+    width: 598px;
+
+}
+
+.box3 {
+    background-color:#ffffff;
+    Border: 3px solid #cccccc;
+    Padding: 20px 15px;
+    Margin: 30px 400px;
+    Height: 583px;
+    width: 599px;
+}
+
+
 
 footer {
     
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+   
     text-align: center;
 }
 
