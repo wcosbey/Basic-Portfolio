@@ -1,3 +1,40 @@
-P {
-    
+body {
+    background-color: #ffffff;
+    border-color:#dddddd;
 }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.badge {
+    Background-color: #4aaaa5;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    height: 75px;
+    width: 300px;
+    Text-align: center;
+}
+
+img {
+    Height: 200px;
+    width: 200px;
+}
+
+.content {
+    min-width: 300px;
+    max-width: 960px;
+    min-height: 300px;
+    max-height: 1000px;
+}
+
+footer {
+    
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
