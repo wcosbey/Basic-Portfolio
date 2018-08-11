@@ -112,14 +112,14 @@ input[type=submit]:hover {
 }
 /* couldnt figure out why the footer keeps moving up the page on a smaller screen and why it wont stick to the bottom of the page.*/
 #sticky {
-    min-width: 1200px;
+    width: 100%;
     border-top: 5px solid #3e0ce3;
     background-color: #666666;
     font-family: Arial, Helvetica, sans-serif;   
     text-align: center;
     font-weight:bold;
     font-size:24px;
-    margin: 0;
+    Margin-top: 20px;
     
     
      
