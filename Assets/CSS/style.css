@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px){}
+
 
 
 body {
@@ -59,7 +59,7 @@ h2 {
     padding-bottom: 5px;
     Margin-top:15px;
 }
-/* couldnt figure out how to scroll when on a smaller screen*/
+
 .box2 {
     background-color:#ffffff;
     Border: 3px solid #3e0ce3;
@@ -96,19 +96,8 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
-
 input[type=submit]:hover {
     background-color: #45a049;
-}
-
-
-.container {
-
-
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
 }
 /* couldnt figure out why the footer keeps moving up the page on a smaller screen and why it wont stick to the bottom of the page.*/
 #sticky {
@@ -119,11 +108,8 @@ input[type=submit]:hover {
     text-align: center;
     font-weight:bold;
     font-size:24px;
-    Margin-top: 20px;
-    
-    
-     
-    
+    Margin-top: 30px;
+    position: absolute;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
