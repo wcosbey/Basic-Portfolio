@@ -9,34 +9,38 @@
         <link rel="stylesheet" href="C:\Users\cosbe\repos\Basic-Portfolio\Assets\CSS\style.css" type="text/css">
     </head>
     <body>
-            <img src="C:\Users\cosbe\repos\Basic-Portfolio\Assets\Images\_carbon_fibre_big_@2X.png" alt="UH OH!">
-
-            <div class="header">
-                <h1 class="badge">Bill Cosbey</h1>
-                
-                <a class="about" href="file:///C:/Users/cosbe/repos/Basic-Portfolio/index.html" target= "_blank">About</a>
-                <a class="about" href="file:///C:/Users/cosbe/repos/Basic-Portfolio/Portfolio.html" target= "_blank">Portfolio</a>
-                <a class="about" href="file:///C:/Users/cosbe/repos/Basic-Portfolio/Contact.html" target= "_blank">Contact</a>
-                    
-            </div>
+            <header>
+                <h1>Bill Cosbey</h1>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">About</a></li>
+                        <li><a href="./Portfolio.html">Portfolio</a></li>
+                        <li><a href="#" >Contact</a></li>    
+                    </ul>
+                </nav>
+            </header>
             <div class="box2">
-               <h2>Contact</h2>
-               <br>
-               <h3>Name</h3>
-               <container></container>
-               <H3>Email</H3>
-               <container></container>
-               <h3>Message</h3>
-               <container></container>
-            </div>        
-
-                
-            
-                
-        
-        <script src="" async defer></script>
-    </body>
-    <footer>
-            <p>copyright</p>
-    </footer>
+                    
+                            <form action="action_page.php">
+                          
+                              <label for="fname">Name</label>
+                              <input type="text" id="Name" name="Name" placeholder="Your name..">
+                          
+                              <label for="lname">Email</label>
+                              <input type="text" id="Email" name="Email" placeholder="Email">
+                          
+                              <label for="Subject">Subject</label>
+                              <input type="text" id="Subject" name="Subject" placeholder="Subject">
+                          
+                              <label for="Message">Message</label>
+                              <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Submit">
+                            </form>
+                                 
+            </div>
+            <footer id="sticky">
+                <p>copyright &copy;</p>
+            </footer>
+        </body>
 </html>
